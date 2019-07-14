@@ -1,0 +1,56 @@
+﻿@using DevnotHotelReservation.Entity.Model
+@model List<HotelRoomPrice>
+@{
+    ViewData["Title"] = "RoomPrices";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="alert alert-light" role="alert">
+                <h2>Oda Fiyatları</h2>
+            </div>
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Başlangıç Tarihi</th>
+                        <th scope="col">Bitiş Tarihi</th>
+                        <th scope="col">Fiyat</th>
+                        <th scope="col">Uygunluk</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var room in Model)
+                    {
+                        @if (room.StartDate != null || room.EndDate != null)
+                        {
+                            <tr>
+                                <th>@room.StartDate.Value.ToString("dd-MM-yyyy")</th>
+                                <td>@room.EndDate.Value.ToString("dd-MM-yyyy")</td>
+                                <td>@room.Price</td>
+                                @if (room.IsAvailable == true)
+                                {
+                                    <td>
+                                        <div class="alert alert-success" role="alert">
+                                            <h5>Uygun</h5>
+                                        </div>
+                                    </td>
+                                }
+                                else
+                                {
+                                    <td>
+                                        <div class="alert alert-danger" role="alert">
+                                            <h5>Uygun Değil</h5>
+                                        </div>
+                                    </td>
+                                }
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

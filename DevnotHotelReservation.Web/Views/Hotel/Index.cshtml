@@ -1,0 +1,31 @@
+﻿@using DevnotHotelReservation.Entity.Model
+@model List<Hotel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<div class="alert alert-info" role="alert">
+    <center>
+        <h1>Hoteller</h1>
+    </center>
+</div>
+<div class="container">
+    <div class="row">
+        @foreach (var hotel in Model)
+        {
+            <div class="col-md-4">
+                <a href="Hotel/HotelDetails/@hotel.Id">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="~/Contents/images/@hotel.MainImage" />
+                        <div class="card-body">
+                            <h5 class="card-title">@hotel.Name</h5>
+                            <p class="card-text">@hotel.Description</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>
+

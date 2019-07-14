@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Contents\images\1.jpg" />
+    <None Include="wwwroot\Contents\images\2.jpg" />
+    <None Include="wwwroot\Contents\images\3.jpg" />
+    <None Include="wwwroot\Contents\images\4.jpg" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.3.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevnotHotelReservation.Busines\DevnotHotelReservation.Busines.csproj" />
+    <ProjectReference Include="..\DevnotHotelReservation.DAL\DevnotHotelReservation.DAL.csproj" />
+    <ProjectReference Include="..\DevnotHotelReservation.Entity\DevnotHotelReservation.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

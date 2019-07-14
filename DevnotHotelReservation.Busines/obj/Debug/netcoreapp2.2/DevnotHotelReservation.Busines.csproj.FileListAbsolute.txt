@@ -1,0 +1,14 @@
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\bin\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.deps.json
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\bin\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.dll
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\obj\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.csprojAssemblyReference.cache
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\obj\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.csproj.CoreCompileInputs.cache
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\obj\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.AssemblyInfoInputs.cache
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\obj\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.AssemblyInfo.cs
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\bin\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.pdb
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\bin\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.dll
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\bin\Debug\netcoreapp2.2\DevnotHotelReservation.Entity.dll
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\bin\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.pdb
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\bin\Debug\netcoreapp2.2\DevnotHotelReservation.Entity.pdb
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\obj\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.csproj.CopyComplete
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\obj\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.dll
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.Busines\obj\Debug\netcoreapp2.2\DevnotHotelReservation.Busines.pdb

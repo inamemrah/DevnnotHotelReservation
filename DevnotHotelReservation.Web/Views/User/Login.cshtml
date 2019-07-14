@@ -1,0 +1,33 @@
+﻿@model DevnotHotelReservation.Entity.Model.User
+@{
+    Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h2>Giriş Sayfası</h2>
+        @ViewBag.Message
+        @using (Html.BeginForm("Login", "User", FormMethod.Post))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.EmailAddress)
+                @Html.TextBoxFor(m => m.EmailAddress, new { @class = "form-control", placeholder = "E-mail" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Sifre" })
+            </div>
+            <button type="submit" class="btn btn-success btn-block">Giriş Yap</button>
+        }
+
+    </div>
+</body>
+</html>

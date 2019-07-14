@@ -1,0 +1,12 @@
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\bin\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.deps.json
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\bin\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.dll
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\obj\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.csproj.CoreCompileInputs.cache
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\obj\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.AssemblyInfoInputs.cache
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\obj\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.AssemblyInfo.cs
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\bin\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.pdb
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\obj\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.csprojAssemblyReference.cache
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\obj\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.dll
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\obj\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.pdb
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\bin\Debug\netcoreapp2.2\DevnotHotelReservation.Entity.dll
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\bin\Debug\netcoreapp2.2\DevnotHotelReservation.Entity.pdb
+C:\Users\508Games\Documents\Visual Studio 2017\Projects\DevnotHotelReservation\DevnotHotelReservation.DAL\obj\Debug\netcoreapp2.2\DevnotHotelReservation.DAL.csproj.CopyComplete

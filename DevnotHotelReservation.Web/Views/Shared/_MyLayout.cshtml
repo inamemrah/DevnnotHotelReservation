@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>_MyLayout</title>
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <form action="~/Hotel/HotelSearch" method="post">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container">
+                    <div class="col-md-5">
+                        <h3><span class="badge badge-secondary">Başlangıç Tarihi</span></h3>
+                        <input name="startDate" type="date" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-outline-success btn-block btn-lg" type="submit">Hotel Ara</button>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="~/User/Login" class="btn btn-outline-info btn-block btn-lg">Giriş Yap</a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="~/User/SignUp" class="btn btn-outline-secondary btn-block btn-lg">Kayıt Ol</a>
+                    </div>
+                </div>
+            </nav>
+        </form>
+
+        <div>@RenderBody()</div>
+
+    </body>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+</html>
