@@ -44,6 +44,7 @@ namespace DevnotHotelReservation.Web.Controllers
             if(userInDb != null)
             {
                 HttpContext.Session.SetString("User", userInDb.UserName);
+                HttpContext.Session.SetInt32("UserId", userInDb.Id);
 
                 return RedirectToAction("Index","Hotel");
             }

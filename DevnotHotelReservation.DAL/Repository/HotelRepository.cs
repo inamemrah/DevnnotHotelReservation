@@ -51,6 +51,7 @@ namespace DevnotHotelReservation.DAL.Repository
                         {
                             Name = hotel.Name,
                             Description = hotel.Description,
+                            Id = hotel.Id,
                             MainImage = hotel.MainImage,
                             HotelAddress = (from hotelAddress in hotelDBContext.HotelAddress
                                             where hotelAddress.HotelId == hotelId
