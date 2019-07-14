@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using DevnotHotelReservation.DAL.Repository;
 
 namespace DevnotHotelReservation.Busines.Business
 {
@@ -19,24 +20,10 @@ namespace DevnotHotelReservation.Busines.Business
 
         public List<HotelSearchModel> HotelSearch(DateTime startDate)
         {
-            HotelDBContext hotelDBContext = new HotelDBContext();
+            HotelRepository hotelRepository = new HotelRepository(hotelDBContext);
+            var hotel = hotelRepository.HotelSearch(startDate);
 
-            var query = (from hotelRoomPrice in hotelDBContext.HotelRoomPrice
-                         join hotelRoom in hotelDBContext.HotelRoom
-                         on hotelRoomPrice.HotelRoomId equals hotelRoom.Id
-                         join hotel in hotelDBContext.Hotel
-                         on hotelRoom.HotelId equals hotel.Id
-                         join hotelAddress in hotelDBContext.HotelAddress
-                         on hotel.Id equals hotelAddress.HotelId
-                         where hotelRoomPrice.StartDate <= startDate && hotelRoomPrice.EndDate >= startDate
-                         select new HotelSearchModel {
-                             Hotel = hotel,
-                             HotelRoom = hotelRoom,
-                             HotelRoomPrice = hotelRoomPrice,
-                             HotelAddress = hotelAddress
-                         }).ToList();
-
-            return query;
+            return hotel;
         }
     }
 }

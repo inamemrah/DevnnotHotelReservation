@@ -13117,6 +13117,7 @@
       "DevnotHotelReservation.Entity >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.AspNetCore.Session >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
       "bootstrap >= 4.3.1"
@@ -13129,11 +13130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Web\\DevnotHotelReservation.Web.csproj",
+      "projectUniqueName": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Web\\DevnotHotelReservation.Web.csproj",
       "projectName": "DevnotHotelReservation.Web",
-      "projectPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Web\\DevnotHotelReservation.Web.csproj",
+      "projectPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Web\\DevnotHotelReservation.Web.csproj",
       "packagesPath": "C:\\Users\\508Games\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Web\\obj\\",
+      "outputPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13152,14 +13153,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\DevnotHotelReservation.Busines.csproj": {
-              "projectPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\DevnotHotelReservation.Busines.csproj"
+            "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\DevnotHotelReservation.Busines.csproj": {
+              "projectPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\DevnotHotelReservation.Busines.csproj"
             },
-            "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.DAL\\DevnotHotelReservation.DAL.csproj": {
-              "projectPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.DAL\\DevnotHotelReservation.DAL.csproj"
+            "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.DAL\\DevnotHotelReservation.DAL.csproj": {
+              "projectPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.DAL\\DevnotHotelReservation.DAL.csproj"
             },
-            "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\DevnotHotelReservation.Entity.csproj": {
-              "projectPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\DevnotHotelReservation.Entity.csproj"
+            "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\DevnotHotelReservation.Entity.csproj": {
+              "projectPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\DevnotHotelReservation.Entity.csproj"
             }
           }
         }
@@ -13181,6 +13182,10 @@
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.AspNetCore.Session": {
             "target": "Package",
             "version": "[2.2.0, )"
           },
