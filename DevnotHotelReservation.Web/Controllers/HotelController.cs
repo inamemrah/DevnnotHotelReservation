@@ -10,7 +10,7 @@ namespace DevnotHotelReservation.Web.Controllers
         public IActionResult Index()
         {
             HotelBusiness hotelBusiness = new HotelBusiness();
-            var hotels = hotelBusiness.GetHotels();
+            var hotels = hotelBusiness.GetAllHotels();
 
             return View(hotels);
         }

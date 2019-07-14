@@ -24,19 +24,14 @@ namespace DevnotHotelReservation.Busines.Business
             userRepository.Insert(user);
         }
 
-        public string Login(User user)
+        public User Login(User user)
         {
-            HotelDBContext hotelDBContext = new HotelDBContext();
-
-            var userInDb = hotelDBContext.User.FirstOrDefault(x => x.EmailAddress == user.EmailAddress && x.Password == user.Password);
-            if(userInDb != null)
-            {
-                return "Giriş Başarılı";
-            }
-            else
-            {
-                return "Kullanıcı Adı veya Şifre Hatalı";
-            }
+            UserRepository userRepository = new UserRepository(hotelDBContext);
+            
+            var userInDb = userRepository.Login(user);
+            
+            return userInDb;
+            
         }
     }
 }

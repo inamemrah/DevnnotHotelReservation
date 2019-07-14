@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using DevnotHotelReservation.DAL.Repository;
 
 namespace DevnotHotelReservation.Busines.Business
 {
@@ -18,12 +19,10 @@ namespace DevnotHotelReservation.Busines.Business
 
         public List<HotelRoomPrice> HotelRoomPrices(int hotelRoomId)
         {
-            HotelDBContext hotelDBContext = new HotelDBContext();
+            HotelRoomRepository hotelRoomRepository = new HotelRoomRepository(hotelDBContext);
+            var roomPrices = hotelRoomRepository.HotelRoomPrices(hotelRoomId);
 
-            var query = (from hotelRoomPrice in hotelDBContext.HotelRoomPrice
-                         where hotelRoomPrice.HotelRoomId == hotelRoomId
-                         select hotelRoomPrice).ToList();
-            return query;
+            return roomPrices;
 
         }
     }

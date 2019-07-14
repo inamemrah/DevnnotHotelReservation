@@ -3473,11 +3473,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\DevnotHotelReservation.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\DevnotHotelReservation.Entity.csproj",
       "projectName": "DevnotHotelReservation.Entity",
-      "projectPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\DevnotHotelReservation.Entity.csproj",
+      "projectPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\DevnotHotelReservation.Entity.csproj",
       "packagesPath": "C:\\Users\\508Games\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\obj\\",
+      "outputPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

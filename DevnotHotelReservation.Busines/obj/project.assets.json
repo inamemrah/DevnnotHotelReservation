@@ -3511,11 +3511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\DevnotHotelReservation.Busines.csproj",
+      "projectUniqueName": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\DevnotHotelReservation.Busines.csproj",
       "projectName": "DevnotHotelReservation.Busines",
-      "projectPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\DevnotHotelReservation.Busines.csproj",
+      "projectPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\DevnotHotelReservation.Busines.csproj",
       "packagesPath": "C:\\Users\\508Games\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\obj\\",
+      "outputPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.Busines\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3534,8 +3534,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.DAL\\DevnotHotelReservation.DAL.csproj": {
-              "projectPath": "C:\\Users\\508Games\\Documents\\Visual Studio 2017\\Projects\\DevnotHotelReservation\\DevnotHotelReservation.DAL\\DevnotHotelReservation.DAL.csproj"
+            "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.DAL\\DevnotHotelReservation.DAL.csproj": {
+              "projectPath": "C:\\Users\\508Games\\Desktop\\DevnotHotelReservation\\DevnotHotelReservation.DAL\\DevnotHotelReservation.DAL.csproj"
             }
           }
         }

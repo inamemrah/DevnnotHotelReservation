@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using DevnotHotelReservation.Busines.Business;
 using DevnotHotelReservation.DAL.Repository;
 using DevnotHotelReservation.Entity.Model;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevnotHotelReservation.Web.Controllers
@@ -38,10 +39,29 @@ namespace DevnotHotelReservation.Web.Controllers
         public IActionResult Login(User user)
         {
             UserBusiness userBusiness = new UserBusiness();
-            ViewBag.Message = userBusiness.Login(user);
-            return View();
+            var userInDb = userBusiness.Login(user);
+
+            if(userInDb != null)
+            {
+                HttpContext.Session.SetString("User", userInDb.UserName);
+
+                return RedirectToAction("Index","Hotel");
+            }
+
+            else
+            {
+                ViewBag.Message = "Kullanıcı Adı veya Şifre Hatalı";
+                return View();
+            }
+
         }
 
+        public IActionResult LogOut()
+        {
+            HttpContext.Session.Remove("User");
+            return RedirectToAction("Index", "Hotel");
+        }
+        
         
     }
 }
